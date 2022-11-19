@@ -3,9 +3,6 @@
 ; tiny13 internal@4MHz ( E:0xFF, H:0xFF, L:0x79 )
 ; si5351a swaps two predefined set of registers
 
-; включить ms1 на clk0 и ms0 на clk1
-; выключить неиспользуемые клоки для снижения энергопотребления
-
 #include <avr/io.h>
 #undef  __SFR_OFFSET
 #define __SFR_OFFSET 0
