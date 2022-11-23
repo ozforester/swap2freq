@@ -1,7 +1,7 @@
 ; Copyright (c) 2022 ozforester. All rights reserved.
 ; Use of this source code is goverened by a MIT license
 ; tiny13 internal@4MHz ( E:0xFF, H:0xFF, L:0x79 )
-; si5351a swaps two predefined set of registers
+; si5351a swaps two sets of registers between two outputs
 
 #include <avr/io.h>
 #undef  __SFR_OFFSET
