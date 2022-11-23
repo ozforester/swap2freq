@@ -7,7 +7,7 @@
 #undef  __SFR_OFFSET
 #define __SFR_OFFSET 0
 #define SIADDR 0xC0 /* si5351a */
-#define LCDADDR 0x78 /* ssd306 32x128*/
+#define LCDADDR 0x78 /* ssd1306 32x128*/
 #define twi_port PORTB
 #define twi_pin  PINB
 #define twi_ddr  DDRB
