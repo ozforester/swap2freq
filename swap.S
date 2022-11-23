@@ -6,7 +6,6 @@
 #include <avr/io.h>
 #undef  __SFR_OFFSET
 #define __SFR_OFFSET 0
-#define SHIT 0
 #define SIADDR 0xC0 /* si5351a */
 #define LCDADDR 0x78 /* ssd306 32x128*/
 #define twi_port PORTB
